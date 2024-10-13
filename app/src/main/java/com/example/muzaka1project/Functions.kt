@@ -5,4 +5,10 @@ class Functions {
         println("== WithoutParameter ==")
         println("Hello World")
     }
+
+    fun WithParameter(name: String){
+        println()
+        println("== WithParameter ==")
+        println("Hello $name!")
+    }
 }
