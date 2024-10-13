@@ -1,7 +1,7 @@
 package com.example.muzaka1project
 import kotlin.collections.MutableList
 class Colection {
-    fun contohList() {
+    fun ContohList() {
         println("=== List ===")
         //List Read-Only
         val readOnlyAbjad = listOf("A", "B", "C")
@@ -77,5 +77,15 @@ class Colection {
         // Mengubah data di dalam Map Mutable
         shape["Square"] = 5
         println(shape)
+
+        // Map Read-Only
+        val shapeLocked: Map<String, Int> = shape
+        println(shapeLocked)
+    }
+
+    fun main() {
+        ContohList()
+        ContohSet()
+        ContohMap()
     }
 }
