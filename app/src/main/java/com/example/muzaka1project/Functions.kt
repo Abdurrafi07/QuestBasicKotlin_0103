@@ -11,4 +11,13 @@ class Functions {
         println("== WithParameter ==")
         println("Hello $name!")
     }
+
+    //named argument
+    //named argument merupakan cara untuk memanggil fungsi dengan menyebutkan nama parameter
+    fun WithNamedArgument(name: String, age: Int){
+        println()
+        println("== WithNamedArgument ==")
+        println("Hello $name! You are $age years old.")
+    }
+
 }
