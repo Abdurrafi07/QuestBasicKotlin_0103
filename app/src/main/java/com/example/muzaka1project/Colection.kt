@@ -41,5 +41,16 @@ class Colection {
         val shape: MutableSet<String> = mutableSetOf("Circle", "Square", "Triangle")
         println(shape)
 
+        // Menambahkan data kedalam Set Mutable
+        shape.add("Rectangle")
+        println(shape)
+
+        // Menghapus data dari Set Mutable
+        shape.remove("Circle")
+        println(shape)
+
+        // Set Read-only
+        val shapesLocked: Set<String> = shape
+        println(shapesLocked)
     }
 }
