@@ -20,4 +20,11 @@ class Functions {
         println("Hello $name! You are $age years old.")
     }
 
+    //default parameter valeu
+    //default parameter valeu merupakan cara untuk memanggil default pada parameter fungsi
+    fun WithDefaultParameter(name: String = "Rafi", age: Int){
+        println()
+        println("== WithDefaultParameter ==")
+        println("Hello $name! You are $age years old.")
+    }
 }
